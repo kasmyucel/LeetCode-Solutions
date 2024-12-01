@@ -1,3 +1,4 @@
+// This is one of my first year solutions in the Computer Engineering department.
 class Solution {
     public boolean detectCapitalUse(String word) {
         int upperCaseCount=0;
