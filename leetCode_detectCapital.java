@@ -14,7 +14,7 @@ class Solution {
            return true;
         else if(upperCaseCount==0 && lowerCaseCount>0)
             return true;
-        else if(('A'<= word.charAt(0) && word.charAt(0)<='Z')&& lowerCaseCount>0 && upperCaseCount==1)
+        else if(Character.isUpperCase(word.charAt(0)) && lowerCaseCount>0 && upperCaseCount==1)
             return true;
         else 
           return false;
