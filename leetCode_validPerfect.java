@@ -6,7 +6,7 @@ class Solution {
         int low = 0;
 
         while (low <= high) {
-            int mid = low + (high - low) / 2;
+            int mid = (low  + high)  / 2;
             if (mid == num / mid && num % mid == 0) {
                 return true;
             } else if (mid > num / mid) {
